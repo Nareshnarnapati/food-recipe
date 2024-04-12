@@ -1,0 +1,33 @@
+.nav-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    opacity: 90%;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    transition: top 0.3s; 
+  }
+.food-head{
+    font-size:35px;
+    color:#ffffff;
+    font-family:sans-serif;
+    font-weight:bold;
+    padding:10px;
+    margin:10px;
+}
+.logout{
+    color:#fff;
+    font-size:20px;
+    font-family:sans-serif;
+    width:160px;
+    height:40px;
+    background-color:brown;
+    padding:5px;
+    margin:10px;
+
+}
